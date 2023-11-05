@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contactos {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.contacts {
+ 
+  background-color: #e6dbdb;
+  height: 100vh;
+  width: 400px;
+}
+
+
+
+.contact {
+  border-bottom: 1px solid #e8ebe4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  gap: 15px;
+ 
+ 
+}
+
+.contact img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact-text p {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.contact-boton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e8ebe4;
+  padding: 20px;
+}
+
+.primary-button {
+  background-color: #7c54d8;
+  color: #ffffff;
+  width: 120px;
+  height: 50px;
+  border: 0px;
+  font-size: 14px;
+}
+
+.icons-chat {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 70px;
+}
+
+.mensajes {
+  background-color: #e7cbda;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: 100vh;
+  
+}
+.mensajes img {
+  width: 270px;
+}
+
+.mensajes-networking {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 700px;
+  
+}
+
+.mensajes-networking h1 {
+  margin-bottom: 0;
+  margin-left: 25px;
+  font-size: 50px;
+}
